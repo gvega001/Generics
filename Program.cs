@@ -10,6 +10,13 @@ namespace Generics
     {
         static void Main(string[] args)
         {
+            var book = new Book {Isbn = "1111", Title = "C#"};
+
+            var numbers = new List();
+            numbers.Add(10);
+
+            var books = new BookList();
+            books.Add(book);
         }
     }
 }
