@@ -16,14 +16,14 @@ namespace Generics
         
     }
 
-    public class ObjectList
+    public class GenericList<T>
     {
-        public void Add(object value)
+        public void Add(T value)
         {
 
         }
 
-        public object this[int index]
+        public T this[int index]
         {
             get { throw new NotImplementedException(); }
         }
