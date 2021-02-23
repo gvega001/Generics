@@ -5,6 +5,7 @@ namespace Generics
 {
     public class Utilities<T> where T: IComparable
     {
+        
         public int Max(int a, int b)
         {
             return a > b ? a : b;
